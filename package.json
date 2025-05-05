@@ -1,0 +1,38 @@
+{
+  "name": "gyman_ptb",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Gyman PTB is a web application designed to manage personal trainer bookings. It facilitates the interaction between gym administrators and members, allowing efficient scheduling and management of personal training sessions.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzamaimi/gyman_PTB.git"
+  },
+  "author": "Hamza Maimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzamaimi/gyman_PTB/issues"
+  },
+  "homepage": "https://github.com/hamzamaimi/gyman_PTB#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
